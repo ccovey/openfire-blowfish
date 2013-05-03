@@ -1,0 +1,31 @@
+{
+    "name": "ccovey/openfire-blowfish",
+    "description": "Open Fire blowfish implementation created by Lei Chen, I forked to get it on packagist.",
+    "authors": [
+        {
+            "name": "Lei Chen",
+            "aleipheonix@gmail.com"
+        },
+        {
+            "name": "Cody Covey",
+            "email": "ccovey14@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+        "illuminate/database": "4.0.x"
+    },
+    "require-dev": {
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Ccovey\\OpenFireBlowfish": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
